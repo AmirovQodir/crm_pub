@@ -1,0 +1,118 @@
+.form-container {
+    height: calc(100vh - 38rem);
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+
+    .form-inputs {
+        flex-grow: 1;
+        overflow-y: auto;
+
+        display: flex;
+        justify-content: space-between;
+        gap: 7.2rem;
+
+        .ant-space-vertical {
+            gap: 11px !important;
+        }
+
+        .controller-label {
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.6rem;
+            color: #333333;
+        }
+
+        .ant-input,
+        .ant-picker-input input {
+            font-family: 'SF Pro Display';
+            line-height: 4rem;
+            font-weight: 400;
+            font-size: 1.6rem;
+        }
+
+        .ant-select-selector {
+            height: 4.8rem;
+        }
+
+        .ant-select-selector,
+        .ant-select-selection-placeholder,
+        .ant-select-selection-item {
+            line-height: 4.8rem;
+            font-family: 'SF Pro Display';
+            font-weight: 400;
+            font-size: 1.6rem;
+        }
+
+        .ant-input::placeholder,
+        .ant-select-selection-placeholder,
+        .ant-picker-input input::placeholder {
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+
+            color: #333333;
+        }
+    }
+
+    .form-inputs>div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .half-content {
+        display: flex;
+        gap: 0.5rem
+    }
+
+    .mb-4 {
+        margin-bottom: 1.2rem;
+    }
+
+    .w-50 {
+        width: 50%;
+    }
+
+    .form-inputs::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .form-actions {
+        width: 100%;
+        gap: 2.3rem;
+        display: flex;
+        margin-top: 2.2rem;
+        justify-content: center;
+
+        button {
+            width: 19rem;
+            height: 5rem;
+            border-radius: 4px;
+            color: #F5F5F7;
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+        }
+
+        button:hover {
+            color: #F5F5F7;
+        }
+
+        button:active {
+            box-shadow: none;
+            outline: none;
+        }
+
+        .button--1 {
+            background-color: #4992CC !important;
+        }
+        .button--2 {
+            background-color: #EB5757 !important;
+        }
+    }
+}

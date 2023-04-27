@@ -1,0 +1,38 @@
+.content-header {
+    height: 8.5rem;
+    padding: 0 4rem !important;
+    background-color: #fff;
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .label {
+            font-size: 3rem;
+            font-weight: 600;
+            margin-right: 2.5rem;
+        }
+        
+        &--1 {
+            justify-content: flex-start;
+            gap: 2rem;
+            margin-bottom: 0.4rem;
+            align-items: center;
+            .button {
+                display: flex;
+                align-items: center;
+                margin-right: 0 !important;
+            }
+            .button:hover {
+                border: none;
+            }
+        }
+        &--2 {
+            line-height: 3.2rem;
+        }
+        .pagination {
+            transform: translateY(-1rem);
+        }
+    }
+}

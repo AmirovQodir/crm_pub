@@ -1,0 +1,1 @@
+export const MSG_ERROR_REQUIRED_FIELD = 'This field is required';

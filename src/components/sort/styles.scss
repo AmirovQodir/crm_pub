@@ -1,0 +1,17 @@
+.sort {
+    display: flex;
+    align-items: center;
+    gap: 2.3rem;
+    button {
+        background-color: transparent;
+        border: 0;
+
+    }
+    .inline-icon line {
+        stroke: #000 !important;
+    }
+
+    .active .inline-icon line {
+        stroke: #22B5DC !important;
+    }
+}

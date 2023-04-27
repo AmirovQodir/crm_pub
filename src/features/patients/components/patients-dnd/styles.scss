@@ -1,0 +1,131 @@
+.patients-dnd {
+    width: 100%;
+    padding: 1.4rem 1.1rem;
+    gap: 5px;
+    display: flex;
+
+    .column {
+        width: 200px;
+        flex-grow: 1;
+        overflow-y: auto;
+        flex-shrink: 1;
+        flex-basis: auto;
+        border-radius: 0.8rem;
+        padding-top: 1.3rem;
+        background-color: #fff;
+
+        &__header {
+            gap: 0.8rem;
+            display: flex;
+            align-items: center;
+            margin: 0 1.6rem;
+            margin-bottom: 2.8rem;
+            justify-content: space-between;
+        }
+
+        &__badge {
+            height: 2.3rem;
+            min-width: 2.3rem;
+            background-color: #22B5DC;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+
+            color: #FFFFFF;
+        }
+
+        .step__content {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        &__content {
+            padding: 0 .9rem 0 .8rem;
+        }
+    }
+
+    .column::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .card {
+        min-height: 25.6rem;
+        background-color: #F1F2F4;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+
+        padding: 1.2rem 1rem 0 1.3rem;
+
+        &__title {
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            color: #333333;
+            margin-bottom: 0.8rem;
+        }
+
+        &__subtitle {
+            font-weight: 500;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            display: flex;
+            align-items: center;
+            color: #909090;
+            margin-bottom: 2.7rem;
+        }
+
+        &__step--iconbox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .step__divider {
+            border-left: 1px solid #BFBFBF;
+            min-height: 5.2rem;
+        }
+
+        &__step {
+            display: flex;
+            gap: .8rem;
+            margin-bottom: 5px;
+
+            .step__title {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-weight: 500;
+                font-size: 1rem;
+                line-height: 84.02%;
+                color: #909090;
+                margin-bottom: 1.2rem;
+            }
+
+            .step__info {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 104.02%;
+                /* or 12px */
+
+
+                /* черный */
+
+                color: #333333;
+            }
+        }
+
+    }
+}

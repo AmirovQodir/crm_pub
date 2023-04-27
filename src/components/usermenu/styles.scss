@@ -1,0 +1,30 @@
+.user-menu {
+    margin-left: 2.1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &__avatar {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        background-color: #F4F4F4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__imagebox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__image {
+        margin-right: -3px;
+    }
+
+    &__button {
+        height: 2rem;
+    }
+}

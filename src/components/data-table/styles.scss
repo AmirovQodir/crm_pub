@@ -1,0 +1,80 @@
+.data-table {
+    .ant-table-thead, .ant-table-row {
+        height: 8rem;
+    }
+    
+    .ant-table-content::-webkit-scrollbar {
+        height: 10px;
+    }
+
+    .ant-table-content::-webkit-scrollbar-track {
+        border-radius: 3px;
+        background-color: transparent;
+    }
+
+    .ant-table-content::-webkit-scrollbar-thumb {
+        border-radius: 3px;
+        background-color: #d6d5d5c1;
+    }
+
+    .ant-table-content::-webkit-scrollbar:hover {
+        cursor: pointer !important;
+    }
+
+    .ant-table-content::-webkit-scrollbar-thumb:hover {
+        cursor: pointer !important;
+        background: #5ab0da; 
+    }
+
+    .ant-table-content::-webkit-scrollbar-track:hover {
+        cursor: pointer !important;
+    }
+
+    .ant-table-wrapper {
+
+        .ant-table,
+        .ant-table-thead>tr>th {
+            background-color: #f1f2f4 !important;
+        }
+
+        .ant-table-tbody>tr>td,
+        .ant-table-thead>tr>th {
+            border-bottom: 1px solid #c4c4c4;
+        }
+    }
+
+    .ant-table-wrapper .ant-table {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #333333;
+    }
+
+    .ant-table-wrapper .ant-table-thead>tr>th {
+        color: #828282 !important;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+
+    .ant-table-row:hover {
+        cursor: pointer;
+    }
+
+    .ant-table-row .ant-table-cell:first-child {
+        padding-left: 4rem;
+    }
+
+    .ant-table-thead .ant-table-cell:first-child {
+        padding-left: 4rem;
+    }
+
+    .ant-table-wrapper .ant-table-tbody >tr.ant-table-row:hover>td {
+        background-color: #fff;
+    }
+}

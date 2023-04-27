@@ -1,0 +1,21 @@
+.patients-list {
+    flex: auto;
+    overflow-y: auto;
+    height: calc(100vh - 19rem);
+
+    .sub-info {
+        color: #909090;
+        margin-top: 3px;
+    }
+
+    .patients-cell {
+        display: flex;
+        align-items: center;
+        gap: 2.4rem;
+
+        .icon:hover svg path {
+            fill: #5ab0da;
+            stroke: #5ab0da;
+        }
+    }
+}

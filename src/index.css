@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("../assets/fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("../assets/fonts/SFPRODISPLAYMEDIUM.OTF") format("opentype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("../assets/fonts/SFPRODISPLAYBOLD.OTF") format("opentype");
+    font-weight: 900;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Inter', sans-serif !important;
+    cursor: pointer;
+}
