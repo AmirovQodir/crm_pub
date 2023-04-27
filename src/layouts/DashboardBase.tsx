@@ -5,7 +5,7 @@ import {
 } from '@ant-design/icons';
 import { Button, Layout } from 'antd';
 
-import { contrastedLogoPath } from "../common/utils/config";
+import  contrastedLogoPath from "../../assets/images/logo-contrasted.png";
 import './styles.scss';
 import { MainMenu } from "../components/mainmenu";
 import { Filters } from "../components/filters";

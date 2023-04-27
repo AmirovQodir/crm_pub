@@ -2,7 +2,7 @@ import { Layout } from "antd";
 import { FC, useEffect, useState } from "react";
 
 import './styles.scss';
-import { siteLogoPath } from "../../common/utils/config";
+import siteLogoPath from "../../../assets/images/logo.png";
 import { IconButton } from "../inputs";
 import { PlusIcon } from "../../common/icons/PlusIcon";
 import { SettingsIcon } from "../../common/icons/SettingsIcon";
