@@ -1,1 +1,0 @@
-export * from './coordinators-list/CoordinatorsList';
