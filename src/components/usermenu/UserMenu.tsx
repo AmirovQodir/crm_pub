@@ -25,7 +25,7 @@ export const UserMenu: FC = () => {
             <div className="user-menu">
                 <div className="user-menu__avatar">
                     <div className="user-menu__imagebox">
-                        <img className="user-menu__image" src="../../../assets/images/user-avatar.svg" alt="user-avatar"></img>
+                        <img className="user-menu__image" src="../../assets/images/user-avatar.svg" alt="user-avatar"></img>
                     </div>
                 </div>
                 <button className="user-menu__button btn">
