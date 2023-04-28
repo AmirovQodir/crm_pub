@@ -3,9 +3,8 @@ import { Outlet } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 import "./home-styles.scss";
-// import siteLogoPath from "../../../assets/images/logo.png";
+import siteLogoPath from "../../../assets/images/logo.png";
 import { withGuest } from "../../features/auth/hocs";
-import { siteLogoPath } from "../../common/utils/config";
 
 export const HomePage: FC = withGuest(() => {
   return (

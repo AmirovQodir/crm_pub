@@ -5,14 +5,13 @@ import {
 } from '@ant-design/icons';
 import { Button, Layout } from 'antd';
 
-// import  contrastedLogoPath from "../../assets/images/logo-contrasted.png";
+import  contrastedLogoPath from "../../assets/images/logo-contrasted.png";
 import './styles.scss';
 import { MainMenu } from "../components/mainmenu";
 import { Filters } from "../components/filters";
 import { MainHeader } from "../components/mainheader";
 import { withAuthorized } from "../features/auth/hocs";
 import { ISidebarContext, SidebarContext } from "../common/contexts";
-import { contrastedLogoPath } from "../common/utils/config";
 
 const { Sider, Content } = Layout;
 

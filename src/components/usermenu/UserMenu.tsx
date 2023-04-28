@@ -4,9 +4,8 @@ import { Dropdown, MenuProps } from "antd";
 import { LogoutOutlined, } from "@ant-design/icons";
 
 import { useLogout } from "../../features/auth/hooks/useLogout";
-// import userAvatar from '../../../assets/images/user-avatar.svg'
 import './styles.scss';
-import { userAvatar } from "../../common/utils/config";
+import userAvatar from "../../../assets/images/user-avatar.svg";
 
 
 export const UserMenu: FC = () => {

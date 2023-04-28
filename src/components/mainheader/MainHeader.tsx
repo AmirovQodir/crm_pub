@@ -2,7 +2,7 @@ import { Layout } from "antd";
 import { FC, useEffect, useState } from "react";
 
 import './styles.scss';
-// import siteLogoPath from "../../../assets/images/logo.png";
+import siteLogoPath from "../../../assets/images/logo.png";
 import { IconButton } from "../inputs";
 import { PlusIcon } from "../../common/icons/PlusIcon";
 import { SettingsIcon } from "../../common/icons/SettingsIcon";
@@ -13,7 +13,6 @@ import { UserMenu } from "../usermenu/UserMenu";
 import { useTranslation } from "react-i18next";
 import { useMatch, useNavigate } from "react-router-dom";
 import { ROUTE_CLINICS, ROUTE_COORDINATORS, ROUTE_CREATE, ROUTE_PATIENTS, ROUTE_SOURCES } from "../../common/constants";
-import { siteLogoPath } from "../../common/utils/config";
 
 const { Header } = Layout;
 
