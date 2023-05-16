@@ -1,9 +1,6 @@
 {
-    "scripts": {
-      "dev": "vite",
-      "build": "tsc && vite build",
-      "preview": "vite preview"
-    },
+    "buildCommand": "vite build",
+    "outputDirectory": "dist",
     "rewrites": [
       {
         "source": "/(.*)",
