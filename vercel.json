@@ -1,0 +1,14 @@
+{
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "preview": "vite preview"
+    },
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
+  

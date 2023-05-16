@@ -13,7 +13,7 @@ export const HomePage: FC = withGuest(() => {
         <title>Welcome!</title>
       </Helmet>
       <div className="wrapper">
-        <img alt="logo" src={siteLogoPath} className="logo" />
+        {/* <img alt="logo" src={siteLogoPath} className="logo" /> */}
         <div className="title">Sign in to your account</div>
         <div className="home">
             <Outlet></Outlet>
